@@ -1,0 +1,31 @@
+/* reset code starts*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset code ends */
+
+.container{
+}
+.posts{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.post{
+    width: 23%;
+    margin: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgb(0.1, 0.1,0.1, 0.2);
+    border-radius: 0.5rem 0.7rem 0.3rem .1rem;
+    text-align: center;
+}
+.post:hover{
+    box-shadow: 0 8px 16px 0 rgb(0.1, 0.1, 0.1, 0.2);
+}
